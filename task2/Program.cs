@@ -1,12 +1,11 @@
 ﻿int a = int.Parse(Console.ReadLine());
-
 if (a % 7 == 0 & a % 23 == 0)
 {
-    Console.Write(" -> кратно ");
-    Console.Write(a);
+    Console.WriteLine(" -> кратно ");
+    Console.WriteLine(a);
 }
 else
 {
-    Console.Write(" -> не кратно ");
-    Console.Write(a);
+    Console.WriteLine(" -> не кратно ");
+    Console.WriteLine(a);
 }
